@@ -34,8 +34,8 @@ if ($storeImg == "success") {
 
     // Connect to a mySQL database and store the user's information so you can link to it later
     $dsn = 'mysql:host=au-cdbr-azure-southeast-a.cloudapp.net;dbname=contribution';
-    $username = 'b7e6dd99f619bd';
-    $password = 'a6be222deb36567';
+    $username = 'b9838ff857bddd';
+    $password = '903ada06';
 
     try {
         $db = new PDO($dsn, $username, $password);
