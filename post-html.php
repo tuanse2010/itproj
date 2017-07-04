@@ -26,7 +26,7 @@ if ($storeImg == "success") {
     // echo "unencodedData".$unencodedData;
     $imageName = "sign_" . rand(5, 1000) . rand(1, 10) . rand(10000, 150000) . rand(1500, 100000000) . ".png";
     // Set the absolute path to your folder (i.e. /usr/home/your-domain/your-folder/
-    $filepath = "images/" . $imageName;
+    $filepath = "./images/" . $imageName;
 
     $fp = fopen($filepath, 'wb');
     fwrite($fp, $unencodedData);
