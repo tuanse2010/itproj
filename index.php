@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
         <title>Signature Pad</title>
-        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
         
         <script type="text/javascript">
             $(document).ready(function () {
